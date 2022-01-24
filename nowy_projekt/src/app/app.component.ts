@@ -1,0 +1,23 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+title = 'nowy_projekt';
+pi = Math.PI;
+date = new Date();
+
+friend = new Friend ('Grzegorz', 35);
+showFriend() {
+  return 'Mój kumpel '+ this.friend.name + ' ma ' + this.friend.age + ' lat';
+}
+
+}
+
+class Friend {
+  constructor(public name:string , public age: number) {
+  }
+}
