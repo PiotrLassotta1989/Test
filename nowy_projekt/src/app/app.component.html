@@ -2,11 +2,11 @@
 <h1>Witaj świecie</h1> <br>
 <p>
 Witamy na kursie Angulara <br>
-Liczba pi to: {{pi}}} <br>
-Dzisiaj jest: {{date}} <br>
+Liczba pi to: {{pi | number: '1.1-2'}} <br>
+Dzisiaj jest: {{date | date: 'dd-MM-yy'}} <br>
 Mój Bestfriend to: {{friend.name}} <br>
 ma za kilka dni {{friend.age}} lat <br>
-{{title}} <br>
+{{title | uppercase}} <br>
 
 {{showFriend()}}
 
