@@ -8,7 +8,15 @@ Mój Bestfriend to: {{friend.name}} <br>
 ma za kilka dni {{friend.age}} lat <br>
 {{title | uppercase}} <br>
 
-{{showFriend()}}
+{{showFriend()}}<br>
+<ul>
+    <li *ngFor="let day of days">
+        {{day}}
+    </li>
+</ul>
+
+
+
 
 
 <app-hero></app-hero>

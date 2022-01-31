@@ -9,6 +9,7 @@ export class AppComponent {
 title = 'nowy_projekt';
 pi = Math.PI;
 date = new Date();
+days = ['Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
 friend = new Friend ('Grzegorz', 35);
 showFriend() {
