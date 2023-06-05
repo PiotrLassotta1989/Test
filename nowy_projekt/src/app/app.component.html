@@ -1,14 +1,18 @@
-<h2><b>Elo</b></h2> 
+<div class="tlo" >
+<h2><b>Zaczynamy !!!</b></h2> 
 <h1>Witaj świecie</h1> <br>
-<p>
-Witamy na kursie Angulara <br>
+
+<div  class="opis">
+<p><b>
+Witamy na kursie Angulara </b></p><br>
 Liczba pi to: {{pi | number: '1.1-2'}} <br>
 Dzisiaj jest: {{date | date: 'dd-MM-yy'}} <br>
 Mój Bestfriend to: {{friend.name}} <br>
 ma za kilka dni {{friend.age}} lat <br>
-{{title | uppercase}} <br>
+<span class="special">{{title | uppercase}} </span><br>
+</div>
 
-{{showFriend()}}<br>
+<h1>{{showFriend()}}</h1><br>
 <h2><b>Dni tygodnia:</b></h2>
 <ul>
     <h3><li *ngFor="let day of days">
@@ -16,6 +20,9 @@ ma za kilka dni {{friend.age}} lat <br>
     </li></h3>
 </ul>
 
+<div>
+    <a href="https://www.youtube.pl">To jest link do strony zewnętrznej.</a>
+</div>
 
 
 
@@ -24,3 +31,5 @@ ma za kilka dni {{friend.age}} lat <br>
 <app-hero1></app-hero1>
 <app-hero1></app-hero1>
 <app-hero2></app-hero2>
+
+</div>

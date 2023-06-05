@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-title = 'nowy_projekt';
+title = 'Pierwsza strona';
 pi = Math.PI;
 date = new Date();
 days = ['Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+
 
 friend = new Friend ('Grzegorz', 35);
 showFriend() {
